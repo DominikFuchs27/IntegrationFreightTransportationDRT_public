@@ -41,6 +41,7 @@ Testing_NewSchedule: Calculates a schedule for the inserted route
 Test_Graph: Main function to run the code
 
 ----- Output --------
+
 Printed attributes
 -	IVT: list of in-vehicle time of best route of all runs
 -	WT: list of waiting time of best route of all runs
@@ -49,14 +50,18 @@ Printed attributes
 -	DIST: list of distance of best route for all runs
 -	CO2: list of CO2 emissions of best route for all runs
 -	BS: list of overall costs of best route for all runs
+
 Figures
 -	Figure 1: Shows best costs of all runs
 -	Figure 2: Shows progress of the current route for routes of all runs
 -	Figure 3: Shows the operational cost of the best route for all runs
 -	Figure 4: Shows the user cost of the best route for all runs
 -	Figure 5: Shows comparison between operational costs and user costs as well as between best costs and progress of the current costs for the last run
+
 CSV-File
+
 Number of CSV files depends on the number of runs. Every csv file stores the best result for one run. Every File has information about
+
 -	Sequence of nodes for each route
 -	Schedule calculated by the model (in minutes)
 -	Actual Schedule
